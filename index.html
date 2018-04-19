@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title> 
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+	<script type="text/javascript">
+		var opcion = confirm("Pulse el boton de login para acceder a logearse");
+
+    	if (opcion === true) {
+    		alert("Gracias");
+   		} else {
+   			alert("Lo lamento lo botare de mi pagina");
+        	window.close();
+   		}
+	</script>
+</head>
+<body>
+	<nav>
+		<img src="imagenes/imgLogo.jpg" id="logo">
+		<div class="botones">
+		    <button class="btn" id="btnEspe">Home</button>
+		    <button class="btn">About</button>
+		    <button class="btn">Facturas</button>
+		    <button class="btn">Princig</button>
+		    <button class="btn" onclick="abrir()">Login</button>
+		    <button class="btn">Buscador</button>
+	    </div>
+	</nav>
+	<main>
+		<iframe id="iframe">
+		</iframe>
+	</main>
+	<footer></footer>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

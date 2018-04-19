@@ -1,0 +1,160 @@
+*{
+	margin: 0 auto;
+}
+html{
+	background: #CDC7C7;
+}
+nav{
+	margin-top: 30px;
+	width: 1500px;
+	height: 100px;
+	background: white;
+}
+main{
+	margin-top: 20px;
+	width: 1500px;
+	height: 650px;
+}
+footer{
+	margin-top: 20px;
+	width: 1500px;
+	height: 100px;
+	background: #9B9898;
+}
+#logo{
+	float: left;
+	margin-left: 15px;
+	width: 100px;
+	height: 100px;
+}
+
+.btn{
+	background: #80A2B3;
+	margin-top: 60px;
+	margin-left: 20px;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+
+}
+.btn:hover{
+	background: #3980C8;
+	font-size: 14px;
+}
+.botones{
+	width: 800px;
+	height: 100%;
+	float: right;
+}
+#btnEspe{
+	margin-top: 60px;
+	margin-left: 70px;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+}
+.texto{
+	width: 600px;
+	height: 180px;
+	float: left;
+}
+h1{
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 60px;
+}
+.formularioLogin{
+	width: 600px;
+	height: 100px;
+	float: left;
+}
+#jun{
+	margin-left: 60px;
+	margin-top: 150px;
+	float: left;
+	width: 600px;
+	height: 380px;
+}
+#btnRegistrar{
+	text-align: center;
+	float: right;
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	/**/
+	background: #939191;
+    padding: 0.1em;
+    width: 80px;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+#btnRegistrar:hover{
+	background: #1019D2;
+}
+.cajas{
+	width: 200px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+#iframe{
+	margin-top: 20px;
+	width: 1500px;
+	height: 650px;
+}
+#btnVentas{
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.btnReg{
+	margin-top: 14px;
+	padding: 10px;
+	margin-left: 40px;
+
+}
+.btnRegw{
+	margin-top: 14px;
+	padding: 10px;
+	margin-left: 350px;
+	
+}
+
+#barra{
+	margin-top: 20px;
+	height: 10px;
+	background: #878282;
+}
+th{
+   vertical-align: top;
+   text-align: left;
+   border: 1px solid #D4D7D7;
+   padding-left: 5px;
+   background: #0D4D84;
+   font-family: Segoe, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+   font-size: 35px;   
+   color: white;
+   padding: 10px;
+}
+td{
+   font-family: Segoe, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+   font-size: 20px;  
+   padding-left: 5px;
+}
+#data{
+	margin-top: 15px;
+}
+.tetMus{
+	margin-left: 1200px;
+	margin-top: 10px;
+	padding: 10px;
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+}

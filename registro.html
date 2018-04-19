@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<nav>
+		<img src="imagenes/imgLogo.jpg" id="logo">
+		<input type="button" value="Ventas" id="btnVentas">
+	</nav>
+	<main>
+		<input type="text" placeholder="PRODUCTO" class="btnRegw" id="nomProducto">
+		<input type="text" placeholder="PRECIO" class="btnReg"
+		id="precio">
+		<input type="text" placeholder="CANTIDAD" class="btnReg" id="cantidad">
+		<input type="button" value="Add" class="btnReg" onclick="agregarProducto()">
+		<hr id="barra">
+
+		<form>
+        <table id="data">
+            <thead>
+                <tr>
+                    <th>#id</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+                <tbody>
+                </tbody>
+        </table>
+    </form>
+	<input type="text" disabled="true" placeholder="Subtotal" class="tetMus" id="subs"><br>
+	<input type="text" disabled="true" placeholder="IGV" class="tetMus" id="igv"><br>
+	<input type="text" disabled="true" placeholder="Total" class="tetMus" id="totaldt"><br>
+	</main>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
